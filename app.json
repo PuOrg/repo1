@@ -1,0 +1,15 @@
+{
+  "name": "repo1",
+  "scripts": {
+  },
+  "env": {
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "urn:buildpack:heroku/java"
+    }
+  ]
+}
